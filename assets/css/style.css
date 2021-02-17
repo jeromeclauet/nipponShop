@@ -1,0 +1,62 @@
+.navbar {
+    background-color: #E03000;
+    padding: 0;
+    margin: 0;
+}
+.navbar-nav {
+    margin: 0 auto;
+ }
+ .nav-link {
+     color: #000;
+     font-size: 1.5em;
+     text-align: center;
+ }
+ .nav-item:hover {
+     background-color: #61bde4;
+ }
+ .nav-link:hover {
+     color: black;
+     text-decoration: none;
+ }
+/*Panner*/
+.modal-body h1 {
+    font-size: 20px;
+}
+.modal-body .btn {
+    padding-bottom: 21px;
+}
+.modal-body .modal-item {
+    display: none;
+}
+.imgModal {
+    width: 150px;
+}
+.textIndex {
+    margin-top: 30px;
+}
+.titreIndex {
+    margin-bottom: 30px;
+}
+#panierIcon {
+    height: auto;
+    width: 50px;
+}
+/* Card */
+.img {
+    width: 250px;
+    height: 400px;
+}
+
+.sliderLeft {
+    background-color: aqua;
+    /* height: 1000px; */
+}
+
+.sliderRight {
+    background-color: aqua;
+    /* height: 1000px; */
+}
+
+.card-body {
+    padding-bottom: 50px;
+}
