@@ -28,21 +28,21 @@ amount2 = Number(document.getElementById('OnePiece2Price').innerText),
 amount3 = Number(document.getElementById('OnePiece3Price').innerText),
 amount4 = Number(document.getElementById('OnePiece4Price').innerText),
 amount5 = Number(document.getElementById('OnePiece5Price').innerText),
-amount6 = Number(document.getElementById('OnePiece6Price').innerText);
-// amount7 = Number(document.getElementById('').innerText),
-// amount8 = Number(document.getElementById('').innerText),
-// amount9 = Number(document.getElementById('').innerText),
-// amount10 = Number(document.getElementById('').innerText),
-// amount11 = Number(document.getElementById('').innerText),
-// amount12 = Number(document.getElementById('').innerText),
+amount6 = Number(document.getElementById('OnePiece6Price').innerText),
+amount7 = Number(document.getElementById('TokyoGhoul1Price').innerText),
+amount8 = Number(document.getElementById('TokyoGhoul2Price').innerText),
+amount9 = Number(document.getElementById('TokyoGhoul3Price').innerText),
+amount10 = Number(document.getElementById('TokyoGhoul4Price').innerText),
+amount11 = Number(document.getElementById('TokyoGhoul5Price').innerText),
+amount12 = Number(document.getElementById('TokyoGhoul6Price').innerText);
 // amount13 = Number(document.getElementById('').innerText),
 // amount14 = Number(document.getElementById('').innerText),
 // amount15 = Number(document.getElementById('').innerText),
 // amount16 = Number(document.getElementById('paperClipsPrice').innerText),
 // amount17 = Number(document.getElementsById('').innerText),
 // amount18 = Number(document.getElementsById('').innerText);
-var balance = amount1 + amount2 + amount3 + amount4 + amount5 + amount6;
-//  + amount7 + amount8 + amount9 + amount10 + amount11 + amount12 + amount13 + amount14 + amount15 + amount16 + amount17 + amount18;
+var balance = amount1 + amount2 + amount3 + amount4 + amount5 + amount6 + amount7 + amount8 + amount9 + amount10 + amount11 + amount12;
+//  + amount13 + amount14 + amount15 + amount16 + amount17 + amount18;
 document.getElementById('amountTotal').innerHTML = balance.toFixed(2);
 }
 
@@ -58,21 +58,21 @@ amount2 = Number(document.getElementById('OnePiece2Price').innerText),
 amount3 = Number(document.getElementById('OnePiece3Price').innerText),
 amount4 = Number(document.getElementById('OnePiece4Price').innerText),
 amount5 = Number(document.getElementById('OnePiece5Price').innerText),
-amount6 = Number(document.getElementById('OnePiece6Price').innerText);
-// amount7 = Number(document.getElementById('').innerText),
-// amount8 = Number(document.getElementById('').innerText),
-// amount9 = Number(document.getElementById('').innerText),
-// amount10 = Number(document.getElementById('').innerText),
-// amount11 = Number(document.getElementById('').innerText),
-// amount12 = Number(document.getElementById('').innerText),
+amount6 = Number(document.getElementById('OnePiece6Price').innerText),
+amount7 = Number(document.getElementById('TokyoGhoul1Price').innerText);
+amount8 = Number(document.getElementById('TokyoGhoul2Price').innerText),
+amount9 = Number(document.getElementById('TokyoGhoul3Price').innerText),
+amount10 = Number(document.getElementById('TokyoGhoul4Price').innerText),
+amount11 = Number(document.getElementById('TokyoGhoul5Price').innerText),
+amount12 = Number(document.getElementById('TokyoGhoul6Price').innerText);
 // amount13 = Number(document.getElementById('').innerText),
 // amount14 = Number(document.getElementById('').innerText),
 // amount15 = Number(document.getElementById('').innerText),
 // amount16 = Number(document.getElementById('paperClipsPrice').innerText),
 // amount17 = Number(document.getElementsById('').innerText),
 // amount18 = Number(document.getElementsById('').innerText);
-var balance = amount1 + amount2 + amount3 + amount4 + amount5 + amount6;
-//  + amount7 + amount8 + amount9 + amount10 + amount11 + amount12 + amount13 + amount14 + amount15 + amount16 + amount17 + amount18;
+var balance = amount1 + amount2 + amount3 + amount4 + amount5 + amount6 + amount7 + amount8 + amount9 + amount10 + amount11 + amount12;
+// + amount13 + amount14 + amount15 + amount16 + amount17 + amount18;
 document.getElementById('amountTotal').innerHTML = balance.toFixed(2);
 }
 
@@ -85,21 +85,21 @@ amount2 = Number(document.getElementById('OnePiece2Price').innerText),
 amount3 = Number(document.getElementById('OnePiece3Price').innerText),
 amount4 = Number(document.getElementById('OnePiece4Price').innerText),
 amount5 = Number(document.getElementById('OnePiece5Price').innerText),
-amount6 = Number(document.getElementById('OnePiece6Price').innerText);
-// amount7 = Number(document.getElementById('').innerText),
-// amount8 = Number(document.getElementById('').innerText),
-// amount9 = Number(document.getElementById('').innerText),
-// amount10 = Number(document.getElementById('').innerText),
-// amount11 = Number(document.getElementById('').innerText),
-// amount12 = Number(document.getElementById('').innerText),
+amount6 = Number(document.getElementById('OnePiece6Price').innerText),
+amount7 = Number(document.getElementById('TokyoGhoul1Price').innerText);
+amount8 = Number(document.getElementById('TokyoGhoul2Price').innerText),
+amount9 = Number(document.getElementById('TokyoGhoul3Price').innerText),
+amount10 = Number(document.getElementById('TokyoGhoul4Price').innerText),
+amount11 = Number(document.getElementById('TokyoGhoul5Price').innerText),
+amount12 = Number(document.getElementById('TokyoGhoul6Price').innerText);
 // amount13 = Number(document.getElementById('').innerText),
 // amount14 = Number(document.getElementById('').innerText),
 // amount15 = Number(document.getElementById('').innerText),
 // amount16 = Number(document.getElementById('paperClipsPrice').innerText),
 // amount17 = Number(document.getElementsById('').innerText),
 // amount18 = Number(document.getElementsById('').innerText);
-var balance = amount1 + amount2 + amount3 + amount4 + amount5 + amount6; 
-// + amount7 + amount8 + amount9 + amount10 + amount11 + amount12 + amount13 + amount14 + amount15 + amount16 + amount17 + amount18;
+var balance = amount1 + amount2 + amount3 + amount4 + amount5 + amount6 + amount7 + amount8 + amount9 + amount10 + amount11 + amount12;
+//  + amount13 + amount14 + amount15 + amount16 + amount17 + amount18;
 var numberSuppr = document.getElementById(amountId).innerText;
 balance = balance - numberSuppr;
 document.getElementById('amountTotal').innerHTML = balance.toFixed(2);
