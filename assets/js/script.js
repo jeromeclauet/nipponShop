@@ -115,3 +115,16 @@ document.getElementById('amountTotal').innerHTML = balance;
 function changeBorder(element) {
 element.style.border = 'solid green 3px';
 }
+
+/* Zoom Image */
+
+$ (function(){
+    //on definie une variable pour stocker la taille initiale de l'image
+    let imageSize = $('.img').width();
+        $('.img').mouseenter(function () {
+        $(this).css({'transform': 'scale(1.38)'}); //this represente ce qui déclenche l'événement
+    });
+        $('.img').mouseleave(function () {
+        $(this).css({'transform': 'initial'}); // pour reprendre la taille initiale
+    });
+}); 
