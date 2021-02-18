@@ -48,12 +48,13 @@
 }
 
 .sliderLeft {
-    background-color: aqua;
-    /* height: 1000px; */
+    background-image: url("../img/japan1.png");
+    background-size: cover;    /* height: 1000px; */
 }
 
 .sliderRight {
-    background-color: aqua;
+    background-image: url("../img/japan2.png");
+    background-size: cover;
     /* height: 1000px; */
 }
 
